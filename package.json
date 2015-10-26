@@ -33,10 +33,13 @@
   "homepage": "https://github.com/reindexio/reindex-starter-kit#readme",
   "dependencies": {
     "babel-runtime": "^5.8.20",
+    "classnames": "^2.2.0",
+    "keycodes": "^0.2.1",
     "react": "^0.14.0-rc1",
     "react-dom": "^0.14.0-rc1",
     "react-relay": "^0.3.2",
-    "reindex-js": "^0.2.0"
+    "reindex-js": "^0.2.0",
+    "todomvc-app-css": "^2.0.1"
   },
   "devDependencies": {
     "babel": "^5.8.23",
