@@ -1,10 +1,9 @@
 # reindex-starter-kit
 
 Sample code to get started with Reindex, React and Relay.
+[Demo Page](http://reindex-todo.surge.sh/)
 
-Fork and clone the repository.
-
-Install dependencies
+Based on https://www.reindex.io/docs/tutorial/
 
 ```
 npm install
@@ -50,19 +49,14 @@ npm run build
 ```
 
 You can now push `public/` directory to your favorite static page hosting.
-We recommend [Divshot](https://www.divshot.com), but you can also use Github
-Pages or any kind of hosting like that.
 
-### Divshot
-
-Initialize your app with `public/` set as a root directory and push.
+### Surge.sh - Static hosting
+https://surge.sh/help/getting-started-with-surge
 
 ```
-$ divshot init
-name: <YOUR APP NAME>
-root directory: (current) public
-clean urls: (y/n) y
-error page: (error.html)
-Would you like to create an app on Divshot from this app?: (y/n) y
-$ divshot push
+cd public/
+surge .
 ```
+
+
+
